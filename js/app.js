@@ -16,3 +16,7 @@ btnEl.addEventListener('click', function(evt) {
 resetBtnEl.addEventListener('click', function(evt) {
   ulEl.innerHTML = ''
 })
+
+ulEl.addEventListener('click', function(evt) {
+  ulEl.removeChild(evt.target)
+})
